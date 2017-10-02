@@ -1,0 +1,10 @@
+//assume:int[]ints
+for(inti=0;i<ints.length;i++)
+{
+intj=i;
+while(j>0&&ints[j]<ints[j-1])
+{
+//swapints[j]andints[j-1]
+j--;
+}
+}
