@@ -1,7 +1,7 @@
 import java.io.FileNotFoundException;
 
 /**
- *  Aa special file not found exception for game files.
+ *  A special custom file not found exception for game files.
  */
 class GameFileNotFoundException extends FileNotFoundException {
 	
